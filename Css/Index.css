@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #91756e;
+}
+
+.HomePagina {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px wh;
+
+
+}
+
+.WieBenIk {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px wh;
+}
+
+.navbar {
+    background-color: #ffe5a9;
+    overflow: hidden;
+    text-align: center;
+    height: 30px;
+}
+
+.navbar a {
+    float: center;
+    color: rgba(255, 255, 255, 0.573);
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    letter-spacing: 1px;
+}
+
+.navbar a:hover {
+    background-color: #e7cc8e;
+}
+
+.navbar a.active {
+    background-color: #e7cc8e;
+    color: white;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+
+
+}
+
+#wrapper2 {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+#wrapper3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: min-content;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px;
+    width: 100%;
+}
+
+#wrapper4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: min-content;
+
+}
+
+#Shailesh1 {
+    border: solid #ffe5a9 3px;
+    height: 400px;
+}
+
+#Spinning1 {
+    width: 60px;
+}
+
+#ZelfTxt {
+    display: flex;
+    height: 95vh;
+    width: 97vw;
+    position: fixed;
+    align-content: left;
+    align-items: left;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px;
+}
