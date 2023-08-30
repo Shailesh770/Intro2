@@ -23,7 +23,7 @@ text-shadow: 1px 1px wh;
 .navbar a{
     float: center;
     color: rgba(255, 255, 255, 0.573);
-    padding: 10px 16px;
+    padding: 90px 90px;
     text-decoration: none;
     font-size: 20px;
     text-shadow: 1px 1px black;
@@ -31,7 +31,9 @@ text-shadow: 1px 1px wh;
 }
 
 .navbar a:hover{
-    background-color: #e7cc8e;
+    background-color: #f7f7f7;
+    transition: 0.9s;
+    opacity: 90%;
 }
 
 .navbar a.active{

@@ -23,7 +23,7 @@ text-shadow: 1px 1px wh;
 .navbar a{
     float: center;
     color: rgba(255, 255, 255, 0.573);
-    padding: 10px 16px;
+    padding: 90px 90px;
     text-decoration: none;
     font-size: 20px;
     text-shadow: 1px 1px black;
@@ -31,10 +31,63 @@ text-shadow: 1px 1px wh;
 }
 
 .navbar a:hover{
-    background-color: #e7cc8e;
+    background-color: #f7f7f7;;
+    transition: 0.9s;
+    opacity: 90%;
 }
 
 .navbar a.active{
     background-color: #e7cc8e;
     color: white;
+}
+
+#Spinning1 {
+    width: 60px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+
+
+}
+
+#wrapper2 {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.container{
+    width: 1900px;
+}
+.Contact {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px wh;
+}
+#wrapperc{
+display: flex;
+align-items: center;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+width:min-content;
+font-family: 'Roboto Slab', serif;
+letter-spacing: 3px;
+opacity: 0.60;
+text-shadow: 1px 1px;
+width: 100%;
+
 }
