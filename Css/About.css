@@ -140,3 +140,16 @@ body {
     margin-left: 17px;
 }
 
+#wrapperCV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 101vw;
+    gap: 10px;
+}
+.CV{
+    border: solid #ffe5a9 3px;
+    height: 520px;
+}
