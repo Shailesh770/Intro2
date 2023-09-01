@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: #91756e;
+    overflow-x: hidden;
 }
 
 .HomePagina{

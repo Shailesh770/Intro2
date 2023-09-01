@@ -1,26 +1,27 @@
-body{
+body {
     margin: 0;
     background-color: #91756e;
+    overflow-x: hidden;
 }
 
-.HomePagina{
-text-align: center;
-font-family: 'Roboto Slab', serif;
-letter-spacing: 3px;
-opacity: 0.60;
-text-shadow: 1px 1px wh;
+.HomePagina {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px wh;
 
 
 }
 
-.navbar{
+.navbar {
     background-color: #ffe5a9;
     overflow: hidden;
     text-align: center;
     height: 30px;
 }
 
-.navbar a{
+.navbar a {
     float: center;
     color: rgba(255, 255, 255, 0.573);
     padding: 90px 90px;
@@ -30,13 +31,112 @@ text-shadow: 1px 1px wh;
     letter-spacing: 1px;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: #f7f7f7;
     transition: 0.9s;
     opacity: 90%;
 }
 
-.navbar a.active{
+.navbar a.active {
     background-color: #e7cc8e;
     color: white;
 }
+
+#Spinning1 {
+    width: 60px;
+}
+
+#wrapper {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.OverMij {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px wh;
+}
+
+#wrapperF {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    gap: 10px;
+
+}
+
+#Shailesh2 {
+    border: solid #ffe5a9 3px;
+    height: 520px;
+}
+
+.Txt1 {
+    display: flex;
+    width: 20vw;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px;
+    margin-left: 20px;
+}
+
+#wrapperF2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 101vw;
+    gap: 10px;
+
+}
+
+#Shailesh3 {
+    border: solid #ffe5a9 3px;
+    height: 520px;
+    animation: fadeIn 5sec;
+}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    height: 520px;
+    animation: fadeIn 90sec;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 9000;
+    }
+}
+
+.Txt2 {
+    display: flex;
+    width: 19vw;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px;
+    margin-left: 17px;
+}
+
