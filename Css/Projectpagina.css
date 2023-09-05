@@ -41,3 +41,23 @@ text-shadow: 1px 1px wh;
     background-color: #e7cc8e;
     color: white;
 }
+
+.Txt1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    opacity: 0.60;
+    text-shadow: 1px 1px wh;
+}
+#Spinning1 {
+    width: 60px;
+}
+#wrapper {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+}
