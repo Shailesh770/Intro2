@@ -152,20 +152,7 @@ body {
     padding-top: 230px;
 }
 
-.CV {
-    border: solid #ffe5a9 3px;
-    height: 774px;
-    width: 545px;
-
-}
-
-hr{
-    width: 100%;
-    padding-top: 2px; 
-    background-color:#ffe5a9 ;
-}
-
-.TxtCV{
+.CV{
     display: flex;
     width: 99vw;
     align-content: center;
